@@ -5,3 +5,6 @@ h1 {
 h3 {
     color: red;
 }
+.inline {
+    display: inline-block;
+}
