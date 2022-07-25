@@ -19,3 +19,4 @@ for (let e = 3; e <= 90; e++) {
         console.log(e);
     }
 }
+//finished loop practice
