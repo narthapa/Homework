@@ -1,0 +1,70 @@
+
+
+
+body {
+    background-color: rgb(27, 27, 27); /*backgournd color*/
+}
+
+.container {
+    display: flex; /*making text side by side*/
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: white;
+    width: 290px;
+    height: 400px;
+    margin: 15px;
+    border-radius: 10px;
+    border-radius: 15px;
+}
+.card-image {
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+
+}
+.tree {
+    background-image: url('https://www.gardeningknowhow.com/wp-content/uploads/2017/07/hardwood-tree.jpg');
+}
+.globe {
+    background-image: url('https://image.pngaaa.com/641/10641-middle.png');
+
+}
+.water {
+    background-image: url('https://t3.ftcdn.net/jpg/03/44/61/48/360_F_344614837_9H1N6kQPLFb53xgj0kpgiB5lxk2zMtAM.jpg');
+   
+}
+.card a {
+    background-color: rgb(77, 77, 233);
+    color: white;
+    padding: 15px to 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.card:hover {
+    background-color: rgb(132, 190, 190);
+    color: wheat;
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: all 1s ease;
+
+}
+h4 {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+h2 {
+    text-align: center;
+}
+
+
+
+
+
